@@ -32,7 +32,7 @@ do {
   console.log(i);
   i--
   incrementVariable();
-} while (array.length > 0 && incrementVariable());
+} while (array.length > 0 && incrementVariable(false));
 
     
    return array 
