@@ -31,7 +31,7 @@ function incrementVariable() {
  
 do {
   console.log(i);
-  i--
+
   incrementVariable();
 } while (array.length > 0 && incrementVariable());
 
