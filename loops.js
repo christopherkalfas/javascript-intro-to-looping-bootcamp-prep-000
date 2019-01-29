@@ -26,13 +26,14 @@ function whileLoop(n){
  
 function incrementVariable() {
   i = i - 1;
+ 
 }
  
 do {
   console.log(i);
   i--
   incrementVariable();
-} while (array.length > 0 && incrementVariable(false));
+} while (array.length > 0 && incrementVariable());
 
     
    return array 
