@@ -30,7 +30,7 @@ function incrementVariable() {
 }
  
 do {
-  console.log(i);
+  console.log(i.slice(-1));
 
   incrementVariable();
 } while (array.length > 0 && incrementVariable());
