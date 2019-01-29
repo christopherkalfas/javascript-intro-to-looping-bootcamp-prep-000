@@ -33,6 +33,8 @@ function incrementVariable() {
  
 do {
   console.log(array.slice(1));
+  
+  return array
 
   incrementVariable();
 } while (array.length > 0 && incrementVariable());
