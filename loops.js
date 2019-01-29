@@ -21,6 +21,8 @@ function whileLoop(n){
   return 'done' 
 }
   
+  
+  
   function doWhileLoop(array){
     var i = 0;
  
@@ -30,7 +32,7 @@ function incrementVariable() {
 }
  
 do {
-  console.log(i.slice(-1));
+  console.log(i);
 
   incrementVariable();
 } while (array.length > 0 && incrementVariable());
